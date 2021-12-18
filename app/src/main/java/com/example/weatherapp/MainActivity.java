@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     JSONObject all_ic_weather = new JSONObject();
 
     private static String BASE_URL = "https://api.openweathermap.org/data/2.5/forecast?q=";
-    private static String APPID = "15b3a3e1a7e9e22418d8578337d0f4ab";
+    private static String APPID = "YOUR_API_KEY";
     private static String units = "imperial"; //fahrenheit
 
     public MainActivity() throws JSONException {
